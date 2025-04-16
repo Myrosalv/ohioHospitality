@@ -9,13 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        WPWebView(url: URL(string: "https://c0h.743.myftpupload.com/sample-page/")!)
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
